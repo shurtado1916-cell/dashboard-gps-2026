@@ -61,7 +61,7 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-st.title("⚡ GPS Performance - Elite Squad")
+st.title("⚡ GPS Performance - Steward PF")
 st.write("Panel de control optimizado para la monitorización de cargas y altas intensidades.")
 st.markdown("---")
 
