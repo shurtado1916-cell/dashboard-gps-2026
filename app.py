@@ -3,21 +3,21 @@ import plotly.graph_objects as go
 import streamlit as st
 
 # 1. CONFIGURACIÓN DE LA PÁGINA
-st.set_page_config(page_title="GPS Performance Dashboard", layout="wide")
+st.set_page_config(page_title="Steward GPS Performance", layout="wide")
 
 # Inyección de CSS para mantener la estética (Fondo negro y textos dorados)
 st.markdown("""
     <style>
-    .main { background-color: #000000; color: #FFD700; }
-    h1, h2, h3 { color: #2ecc71 !important; font-family: 'Arial Black'; }
-    .stDataFrame { background-color: #111111; }
-    .css-10trblm { color: #FFD700 !important; }
+    .main { background-color: #474444; color: #a0fadd; }
+    h1, h2, h3 { color: #7ec29a !important; font-family: 'Roboto'; }
+    .stDataFrame { background-color: #4d4a4a; }
+    .css-10trblm { color: #dfffd4 !important; }
     /* Estilo para el cargador de archivos */
-    .stFileUploader { background-color: #111111; border: 1px solid #2ecc71; padding: 10px; border-radius: 5px; }
+    .stFileUploader { background-color: #666363; border: 1px solid #2ecc71; padding: 10px; border-radius: 5px; }
     </style>
     """, unsafe_allow_html=True)
 
-st.title("⚽ Centro de Mando GPS - Temporada 2026")
+st.title("⚽ STEWARD GPS - Temporada 2026")
 st.write("Sube el archivo de la sesión para actualizar automáticamente todo el análisis del plantel.")
 
 # 2. CARGADOR DE ARCHIVOS AUTOMATIZADO
