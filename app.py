@@ -9,8 +9,8 @@ st.markdown("""
     <style>
     /* Fondo total de la aplicación (Negro profundo mate) */
     .stApp {
-        background-color: #070b19 !important;
-        color: #070b19 !important;
+        background-color: #0D1527 !important;
+        color: #0D1527 !important;
     }
     
     /* Títulos principales estilo deportivo (Verde Neón) */
