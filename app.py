@@ -55,7 +55,7 @@ st.markdown("""
     
     /* Ajuste de la barra lateral */
     section[data-testid="stSidebar"] {
-        background-color: #0A0A0A !important;
+        background-color: #0D1527 !important;
         border-right: 1px solid #111111 !important;
     }
     </style>
