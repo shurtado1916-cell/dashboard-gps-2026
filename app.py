@@ -155,4 +155,4 @@ if archivo_subido is not None:
             if top_vel_player is not None:
                 st.metric(label="⚡ Velocidad Pico (Récord)", value=f"{top_vel_player['Max Vel (km/h)']} km/h", delta=f"🏃‍♂️ {top_vel_player['JUGADOR']}", delta_color="normal")
 
-    except Exception as
+    
