@@ -71,10 +71,10 @@ if archivo_subido is not None:
         fig = go.Figure(go.Bar(
             x=reporte_equipo['JUGADOR'],
             y=reporte_equipo[metrica_seleccionada],
-            marker_color='#2ecc71',
+            marker_color='#abf5cb',
             text=reporte_equipo[metrica_seleccionada],
             textposition='outside',
-            textfont=dict(color='#FFD700', size=12, family='Arial Black')
+            textfont=dict(color='#d4fff8', size=12, family='Arial Black')
         ))
         
         fig.update_layout(
