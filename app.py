@@ -3,7 +3,7 @@ import plotly.graph_objects as go
 import streamlit as st
 
 # 1. CONFIGURACIÓN DE PÁGINA Y ESTILO ELITE (CSS AVANZADO)
-st.set_page_config(page_title="GPS Elite Analytics", layout="wide")
+st.set_page_config(page_title="GPS STEWARD Elite Analytics", layout="wide")
 
 st.markdown("""
     <style>
